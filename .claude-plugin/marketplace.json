@@ -1,0 +1,19 @@
+{
+  "name": "yubi",
+  "owner": {
+    "name": "International Design LLC",
+    "url": "https://yubichan.ai"
+  },
+  "metadata": {
+    "description": "Yubi, the Mac assistant that operates the app in front of you, as a plugin for Claude."
+  },
+  "plugins": [
+    {
+      "name": "yubi",
+      "source": "./plugins/yubi",
+      "description": "Let Claude use your Mac through Yubi: read the window in front, click, type, scroll, open apps and pages, merge PDFs. Every risky press waits for your yes.",
+      "category": "productivity",
+      "homepage": "https://yubichan.ai/en/claude/"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "yubi",
+  "version": "0.9.0",
+  "description": "Let Claude use your Mac through Yubi: read the window in front, click, type, scroll, open apps and pages, merge PDFs. Every risky press waits for your yes on Yubi's card. Needs the free Yubi app for macOS 26.",
+  "author": {
+    "name": "Carlos Lastres",
+    "url": "https://yubichan.ai"
+  },
+  "homepage": "https://yubichan.ai/en/claude/",
+  "repository": "https://github.com/AnimaEcho/yubi-plugin",
+  "license": "MIT",
+  "keywords": ["mac", "macos", "accessibility", "computer-use", "automation", "japanese"]
+}

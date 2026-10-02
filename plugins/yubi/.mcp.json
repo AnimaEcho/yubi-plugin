@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "yubi": {
+      "command": "/Applications/Yubi.app/Contents/MacOS/yubi-mcp"
+    }
+  }
+}
