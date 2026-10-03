@@ -36,7 +36,7 @@ Add a local MCP server with this command:
 }
 ```
 
-The first time an app connects, Yubi asks whether that app may use her. You can take it back any time in Yubi's Settings.
+The first time an app connects, Yubi asks whether that app may use her, checked by the app's code signature. The answer lasts until Yubi quits, and you can take it back sooner in her Settings.
 
 ## What Claude can do through Yubi
 
@@ -54,11 +54,14 @@ The first time an app connects, Yubi asks whether that app may use her. You can 
 
 ## You stay in charge
 
-- Anything that sends, buys, posts, publishes, deletes or submits waits for your own yes on Yubi's card. Claude cannot say yes for you.
-- If you have not let Yubi click for you, she points at the control and waits for you to click it.
+- Every click, every bit of typing, every Return, Enter, Space or Delete, and every web address waits for your own yes on Yubi's card, which shows exactly what will happen. Claude cannot say yes for you.
+- If you have not let Yubi click for you, she points at the control and waits for you to click it yourself.
+- Text with line breaks is never typed through Yubi, since a line break can send.
+- What Yubi reads goes to the AI app you connected and its provider. It never passes through Yubi's server, and Yubi keeps only a note that a read happened, not the text.
 - Yubi reads the accessibility text of the window, never a screenshot.
 - Password managers are never read.
-- Only Yubi's own signed connector can talk to her, and only apps you allowed.
+- Only Yubi's own signed connector can talk to her, the connector only talks to the real Yubi, and only apps you allowed, checked by their code signature, get through.
+- Press Stop on her card and the AI app's session ends at once.
 
 Privacy policy: [yubichan.ai/en/privacy](https://yubichan.ai/en/privacy/)
 
